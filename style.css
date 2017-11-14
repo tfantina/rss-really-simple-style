@@ -1,0 +1,111 @@
+/*
+Theme Name: RSS-Really-Simple-Style
+Author: Travis Fantina
+Author URI: http://www.travisfantina.com
+Description: A minimalist theme for creating beautiful blogs and webpages
+Version: alpha0.0.1
+License: GPL2
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+Text Domain: textdomain
+Domain Path: NA
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600|Roboto:700,900');
+
+body {
+  background-color: rgb(134, 249, 143);
+  color: rgb(255, 255, 255);  /* this color does not pass WCAG but #3D3D3D would */
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+/* ============================================================================
+Text and Links
+============================================================================ */
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  line-height: 95px;
+  border-bottom: .5px solid;
+  border-color: rgb(255, 255, 255);
+}
+
+h2, h2, h2>a {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  text-decoration: none;
+}
+
+h2>a:hover {
+  color: rgb(227, 248, 255);
+  text-decoration: none;
+}
+
+h3, .h3, h3>a {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-decoration: none;
+}
+h3>a:hover {
+  color: rgb(227, 248, 255);
+  text-decoration: none;
+}
+
+
+/* ============================================================================
+Navbar and navicons (fontawesome)
+============================================================================ */
+.navbar-nav>li>a {
+  font-family: 'Roboto', sans-serif;
+  padding-right: 10px;
+  font-size: 20;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.navbar {
+  border-bottom: .5px solid;
+  border-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.navbar-light .navbar-toggler {
+  border: 3px solid;
+  border-color: rgb(255, 255, 255);
+
+}
+
+.fa {
+  color: rgb(255, 255, 255);
+}
+
+/* ============================================================================
+Containers and Grid
+============================================================================ */
+
+.container {
+  max-width: 45rem;
+}
+
+/* ============================================================================
+Layout and Divs
+============================================================================ */
+header {
+  padding-top: 2em;
+}
+
+/* ============================================================================
+wp-captions
+============================================================================ */
+.wp-caption {
+
+}
