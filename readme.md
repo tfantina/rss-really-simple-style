@@ -26,7 +26,9 @@ Below are a few issues:
 
 1. Stylesheet does not contain wp-caption-text tags
 2. Stylesheet does not contain any alignment tags
-
--More issues and to come -
+3. Multiple text domains
+4. No screenshot
+5. No translation function
+6. Issue with customizer sanitization 
 
 ---
