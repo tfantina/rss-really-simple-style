@@ -1,13 +1,13 @@
 /*
-Theme Name: RSS-Really-Simple-Style
+Theme Name: RSS Really Simple Style
 Author: Travis Fantina
 Author URI: http://www.travisfantina.com
 Description: A minimalist theme for creating beautiful blogs and webpages
 Version: v1.0.0.rc0
 License: GPL2
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
-Text Domain: textdomain
-Domain Path: NA
+Text Domain: rss-really-simple-style
+
 
 */
 
@@ -104,8 +104,116 @@ header {
 }
 
 /* ============================================================================
-wp-captions
+Captions & Authorship
 ============================================================================ */
 .wp-caption {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
 
+.wp-caption-text {
+  font-style: italic;
+}
+
+.gallery-caption {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.sticky {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.bypostauthor {
+  font-style: italic;
+}
+
+/* ============================================================================
+Alignment
+============================================================================ */
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 5px, 15px, 15px;
+  max-width: 40em;
+}
+
+.alignright, div.aligncenter {
+  float: right;
+  margin: 5px, 15px, 15px;
+  max-width: 30rem;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px, 15px, 15px;
+  max-width: 40em;
+}
+
+/* ============================================================================
+Images
+============================================================================ */
+.allignnone {
+  margin: 5px, 15px, 15px;
+  max-width: 40em;
+}
+
+img {
+  overflow: hidden;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px, 15px, 15px;
+  max-width: 30rem;
+}
+a img.alignleft {
+  float: left;
+  margin: 5px, 15px, 15px;
+  max-width: 30rem;
+}
+
+a img.alignnone {
+  margin: 5px, 15px, 15px;
+  max-width: 40em;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+}
+/* ============================================================================
+screen reader text (copied straight from WP Codex)
+============================================================================ */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
 }

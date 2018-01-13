@@ -1,7 +1,7 @@
 
 # RSS or Really Simple Style
 ###  Theme for WordPress
-#### version v1.0.0.rc0
+#### version v1.2.0
 ---
 This theme was thrown together in a few days; having previously created [travisfantina-2017](https://github.com/tfantina/travisfantina-2017) I was
 unhappy with the design and wanted a simpler web presence as well as something
@@ -24,11 +24,7 @@ comply with WordPress standards and as such should not yet be distributed.
 
 Below are a few issues:
 
-1. Stylesheet does not contain wp-caption-text tags
-2. Stylesheet does not contain any alignment tags
-3. Multiple text domains
-4. No screenshot
-5. No translation function
-6. Issue with customizer sanitization 
+1. Multiple text domains
+2. Not formatted for images
 
 ---

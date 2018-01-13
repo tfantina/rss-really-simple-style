@@ -16,8 +16,8 @@
 
       <?php the_posts_pagination(array(
         'mid-size' => 3,
-        'prev-text' => __('Previous', 'textdomain'),
-        'next-text' => __('Next', 'textdomain'),
+        'prev-text' => __('Previous', 'rss-really-simple-style'),
+        'next-text' => __('Next', 'rss-really-simple-style'),
       ));
         else :
           get_template_part('content');

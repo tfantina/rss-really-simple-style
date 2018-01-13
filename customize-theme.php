@@ -17,7 +17,8 @@ function cd_customize_settings($wp_customize) {
   $wp_customize->add_section('cd_colors', array(
     'title' => 'Colors',
     'description' => 'Update your theme colors',
-    'priority' => 30
+    'priority' => 30,
+    'sanitize_callback' => 'esc_attr',
   ));
 
   //creates setting and control for background color in the colors section
@@ -25,6 +26,8 @@ function cd_customize_settings($wp_customize) {
     'default' => '#86f98f',
     'transport' => 'postMessage',
     'sanatize_callback' => 'sanatize_hex_color',
+    'sanitize_callback' => 'esc_attr',
+
   ));
   $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,
                       'background_color', array('label' => 'Background Color',
@@ -40,6 +43,7 @@ function cd_customize_settings($wp_customize) {
       'default' => '#ffffff',
       'transport' => 'postMessage',
       'sanatize_callback' => 'sanatize_hex_color',
+      'sanitize_callback' => 'esc_attr',
   ));
   $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,
                       'text_color', array('label' => 'Font color',
