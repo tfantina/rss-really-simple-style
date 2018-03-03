@@ -3,7 +3,7 @@
 ![sample image](https://raw.githubusercontent.com/tfantina/rss-really-simple-style/master/screenshot.png)
 
 ###  Theme for WordPress
-#### version v1.2.0
+#### version v1.2.2
 ---
 The bulk of this theme was created over the course of a few days in November '17.  Having previously created [travisfantina-2017](https://github.com/tfantina/travisfantina-2017) I was
 unhappy with the design and wanted a simpler web presence as well as something
@@ -31,6 +31,6 @@ comply with WordPress standards and as such should not yet be distributed.
 Below are a few issues:
 
 1. Multiple text domains
-2. Not formatted for images
+
 
 ---
