@@ -3,10 +3,7 @@
 https://premium.wpmudev.org/blog/wordpress-theme-customizer-guide/ */
 
 /* This file contains the settings, sections and controls for various
-customizations to the theme */ ?>
-
-<?php
-
+customizations to the theme */ 
 // Add various customizers
 add_action('customize_register', 'cd_customize_settings');
 function cd_customize_settings($wp_customize) {
@@ -68,6 +65,10 @@ function cd_customizer_css() {
       .navbar-light .navbar-toggler, h1, .navbar {
         border-color: <?php echo get_theme_mod('text_color', '#ffffff'); ?>;
       }
+      .navbar-nav>li>a {
+        border-color: <?php echo get_theme_mod('text_color', '#ffffff'); ?>;
+      }
+      
 
   </style>
   <?php

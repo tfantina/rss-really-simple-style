@@ -3,9 +3,9 @@
  <div id="post-<?php the_ID(); ?>" <?php post_class();?> />
 <div class="panel panel-info">
   <div class="panel-heading">
-  <h2><?php if(is_single()) : the_title();
-        else : the_title(sprintf('<a href="%s" class="blog-post-title">', esc_url(get_permalink())), '</a>');
-      endif; ?></h2>
+  <h2><?php //if(is_single()) : the_title();
+      //  else : the_title(sprintf('<a href="%s" class="blog-post-title">', esc_url(get_permalink())), '</a>');
+    //  endif; ?></h2>
     </div>
     <div class="panel-body">
 
